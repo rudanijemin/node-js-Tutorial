@@ -13,4 +13,5 @@ const fs = require("fs");
 //readfile
 fs.readFile("fsAsync/read.txt","utf-8",(err,data)=>{
     console.log(data);
+    console.log("file created");
 });
