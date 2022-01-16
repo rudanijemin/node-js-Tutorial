@@ -15,6 +15,6 @@ const server = http.createServer((req,res)=>{
         res.end("404 error page does not exit");
     }
 });
-server.listen(7000 , "127.0.0.1",()=>{
-    console.log("listing to port no 7000");
+server.listen(8000 , "127.0.0.1",()=>{
+    console.log("listing to port no 8000");
 });
