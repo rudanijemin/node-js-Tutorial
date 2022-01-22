@@ -17,7 +17,7 @@ fs.writeFile("j1.json", jasondate, (err)=>{
 });
 
 fs.readFile("j1.json","utf-8",(err,data)=>{
-    const ordate =JSON.parse(data);
+    const ordate =JSON.parse(data );
     console.log(data);
     console.log(ordate);
 });
