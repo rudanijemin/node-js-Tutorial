@@ -28,8 +28,6 @@ server.on("request",(req,res)=>{
     //3 way
     const rstream = fs.createReadStream("input.txt");
     rstream.pipe(res);
-
-
 });
 
 server.listen(7000,"127.0.0.1");    
